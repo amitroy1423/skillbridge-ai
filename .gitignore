@@ -3,6 +3,8 @@ node_modules/
 
 # Environment variables
 .env
+#text files
+Flow.txt
 
 # Debug logs
 npm-debug.log*
@@ -17,8 +19,7 @@ Thumbs.db
 .vscode/
 .idea/
 
-# Coverage directory used by tools like istanbul
-coverage/
+
 
 # Production build
 dist/

@@ -1,6 +1,11 @@
 const express = require('express');
+const cookieParser = require('cookie-parser');
 
 const app = express();
+
+// using cookie parser
+app.use(cookieParser());
+
 app.use(express.json());
 
 // require all the routes here
